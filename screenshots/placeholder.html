@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screenshot Placeholder Generator</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            margin: 0;
+            background: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .phone-mockups {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .phone-mockup {
+            width: 250px;
+            height: 500px;
+            background: #000;
+            border-radius: 25px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+        .phone-mockup::before {
+            content: '';
+            width: 60px;
+            height: 6px;
+            background: #333;
+            border-radius: 3px;
+            position: absolute;
+            top: 10px;
+        }
+        .screen {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            overflow: hidden;
+        }
+        .screen h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .screen p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            padding: 0 1rem;
+        }
+        .home-screen {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            color: #1976d2;
+        }
+        .home-screen .water-circle {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #2196f3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .chat-screen {
+            background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);
+            color: #7b1fa2;
+        }
+        .stats-screen {
+            background: linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 100%);
+            color: #388e3c;
+        }
+        .download-instructions {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="phone-mockups">
+        <div class="phone-mockup">
+            <div class="screen home-screen">
+                <h3>Home Screen</h3>
+                <div class="water-circle">75%<br><small>1875/2500ml</small></div>
+                <p>Quick Add Buttons<br>Water Progress</p>
+            </div>
+        </div>
+        
+        <div class="phone-mockup">
+            <div class="screen chat-screen">
+                <h3>AI Assistant</h3>
+                <p>💬 Hello! I'm your hydration assistant.<br><br>🤖 How can I help you today?<br><br>💡 Get personalized advice</p>
+            </div>
+        </div>
+        
+        <div class="phone-mockup">
+            <div class="screen stats-screen">
+                <h3>Statistics</h3>
+                <p>📊 Weekly: 15.2L<br>📈 Achievement: 85%<br>🔥 Streak: 7 days<br>📅 Monthly progress</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="download-instructions">
+        <h4>📸 Screenshot Instructions</h4>
+        <p>Take screenshots of each mockup and save as:<br>
+        • home.png<br>
+        • chat.png<br>
+        • stats.png</p>
+    </div>
+</body>
+</html>

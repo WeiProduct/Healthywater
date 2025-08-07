@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="500" viewBox="0 0 250 500">
+  <!-- Phone background -->
+  <rect width="250" height="500" fill="#f5f7fa" rx="25"/>
+  
+  <!-- Status bar -->
+  <rect x="0" y="0" width="250" height="50" fill="#667eea" rx="25" ry="0"/>
+  <text x="125" y="30" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">9:41 AM</text>
+  
+  <!-- Navigation title -->
+  <text x="125" y="90" text-anchor="middle" fill="#2d3748" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Today's Hydration</text>
+  
+  <!-- Water progress circle -->
+  <circle cx="125" cy="200" r="80" fill="#e3f2fd" stroke="#2196f3" stroke-width="4"/>
+  <circle cx="125" cy="200" r="60" fill="#2196f3" opacity="0.8"/>
+  
+  <!-- Progress text -->
+  <text x="125" y="190" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">75%</text>
+  <text x="125" y="210" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">1875 / 2500 ml</text>
+  
+  <!-- Quick add title -->
+  <text x="20" y="320" fill="#2d3748" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Quick Add</text>
+  
+  <!-- Quick add buttons -->
+  <rect x="20" y="340" width="65" height="60" fill="#e3f2fd" rx="10"/>
+  <text x="52" y="375" text-anchor="middle" fill="#2196f3" font-family="Arial, sans-serif" font-size="14" font-weight="bold">250ml</text>
+  
+  <rect x="95" y="340" width="65" height="60" fill="#e3f2fd" rx="10"/>
+  <text x="127" y="375" text-anchor="middle" fill="#2196f3" font-family="Arial, sans-serif" font-size="14" font-weight="bold">500ml</text>
+  
+  <rect x="170" y="340" width="65" height="60" fill="#e3f2fd" rx="10"/>
+  <text x="202" y="375" text-anchor="middle" fill="#2196f3" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Custom</text>
+  
+  <rect x="20" y="410" width="65" height="60" fill="#e3f2fd" rx="10"/>
+  <text x="52" y="445" text-anchor="middle" fill="#2196f3" font-family="Arial, sans-serif" font-size="14" font-weight="bold">350ml</text>
+  
+  <rect x="95" y="410" width="65" height="60" fill="#e3f2fd" rx="10"/>
+  <text x="127" y="445" text-anchor="middle" fill="#2196f3" font-family="Arial, sans-serif" font-size="14" font-weight="bold">200ml</text>
+  
+  <rect x="170" y="410" width="65" height="60" fill="#e3f2fd" rx="10"/>
+  <text x="202" y="445" text-anchor="middle" fill="#2196f3" font-family="Arial, sans-serif" font-size="14" font-weight="bold">1000ml</text>
+</svg>

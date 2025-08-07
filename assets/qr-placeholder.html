@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+            background: #f5f5f5;
+        }
+        .qr-placeholder {
+            width: 200px;
+            height: 200px;
+            background: white;
+            border: 2px solid #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .qr-grid {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            gap: 2px;
+            width: 160px;
+            height: 160px;
+        }
+        .qr-cell {
+            background: #000;
+        }
+        .qr-cell:nth-child(odd) {
+            background: #000;
+        }
+        .qr-cell:nth-child(even) {
+            background: transparent;
+        }
+        .instructions {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px;
+        }
+        .instructions h2 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        .instructions p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        .instructions ol {
+            text-align: left;
+            color: #555;
+        }
+        .instructions li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="qr-placeholder">
+        <div class="qr-grid">
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+            <div class="qr-cell"></div>
+        </div>
+    </div>
+    
+    <div class="instructions">
+        <h2>📱 QR Code Generator Instructions</h2>
+        <p>Once your app is published on the App Store, follow these steps to generate a real QR code:</p>
+        <ol>
+            <li>Get your App Store URL (e.g., https://apps.apple.com/app/healthy-water/id123456789)</li>
+            <li>Visit a QR code generator like <strong>qr-code-generator.com</strong></li>
+            <li>Enter your App Store URL</li>
+            <li>Generate and download the QR code as PNG</li>
+            <li>Save it as <code>qr-code.png</code> in the assets folder</li>
+            <li>Replace this placeholder file</li>
+        </ol>
+        <p><strong>Recommended QR Code Settings:</strong></p>
+        <ul style="text-align: left;">
+            <li>Size: 200x200 pixels minimum</li>
+            <li>Format: PNG with transparent background</li>
+            <li>Error correction: Medium (M)</li>
+        </ul>
+    </div>
+</body>
+</html>

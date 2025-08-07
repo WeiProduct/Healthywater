@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Water - Smart Hydration Tracker</title>
+    <meta name="description" content="Track your daily water intake with beautiful visualizations, AI assistant, and smart reminders. Available in English and Chinese.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-tint"></i>
+                <span data-key="app_name">Healthy Water</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#features" data-key="features">Features</a>
+                <a href="#screenshots" data-key="screenshots">Screenshots</a>
+                <a href="#download" data-key="download">Download</a>
+                <div class="language-toggle">
+                    <button id="lang-toggle" class="lang-btn">
+                        <i class="fas fa-globe"></i>
+                        <span id="current-lang">EN</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span data-key="hero_title">Stay Hydrated, Stay Healthy</span>
+                    <span class="highlight">💧</span>
+                </h1>
+                <p class="hero-subtitle" data-key="hero_subtitle">
+                    Track your daily water intake with beautiful visualizations, AI-powered insights, and smart reminders. Available in English and Chinese.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">
+                        <i class="fab fa-apple"></i>
+                        <span data-key="download_app">Download for iOS</span>
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        <i class="fas fa-play"></i>
+                        <span data-key="learn_more">Learn More</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-phone">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="water-animation">
+                            <div class="water-circle">
+                                <div class="water-wave"></div>
+                                <div class="water-percentage">75%</div>
+                                <div class="water-amount">1875 / 2500 ml</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title" data-key="features_title">Powerful Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 data-key="smart_tracking">Smart Tracking</h3>
+                    <p data-key="smart_tracking_desc">Beautiful water wave animations show your daily progress with precise measurements in multiple units.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 data-key="ai_assistant">AI Assistant</h3>
+                    <p data-key="ai_assistant_desc">Get personalized hydration advice powered by Google Gemini AI based on your drinking patterns.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3 data-key="smart_reminders">Smart Reminders</h3>
+                    <p data-key="smart_reminders_desc">Customizable notifications that adapt to your schedule with weekday and weekend options.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-weight"></i>
+                    </div>
+                    <h3 data-key="personalized_goals">Personalized Goals</h3>
+                    <p data-key="personalized_goals_desc">Daily water intake recommendations calculated based on your weight and health guidelines.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3 data-key="detailed_stats">Detailed Statistics</h3>
+                    <p data-key="detailed_stats_desc">Track your progress with weekly, monthly, and yearly statistics including achievement rates.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 data-key="bilingual_support">Bilingual Support</h3>
+                    <p data-key="bilingual_support_desc">Full support for English and Chinese with seamless language switching.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section id="screenshots" class="screenshots">
+        <div class="container">
+            <h2 class="section-title" data-key="app_preview">App Preview</h2>
+            <div class="screenshots-slider">
+                <div class="screenshot-item active">
+                    <img src="screenshots/home.svg" alt="Home Screen" class="screenshot-img">
+                    <div class="screenshot-info">
+                        <h3 data-key="home_screen">Home Screen</h3>
+                        <p data-key="home_screen_desc">Beautiful water progress visualization with quick-add buttons</p>
+                    </div>
+                </div>
+                <div class="screenshot-item">
+                    <img src="screenshots/chat.svg" alt="AI Assistant" class="screenshot-img">
+                    <div class="screenshot-info">
+                        <h3 data-key="ai_chat">AI Assistant</h3>
+                        <p data-key="ai_chat_desc">Get personalized hydration advice from AI</p>
+                    </div>
+                </div>
+                <div class="screenshot-item">
+                    <img src="screenshots/stats.svg" alt="Statistics" class="screenshot-img">
+                    <div class="screenshot-info">
+                        <h3 data-key="statistics">Statistics</h3>
+                        <p data-key="statistics_desc">Track your hydration progress over time</p>
+                    </div>
+                </div>
+            </div>
+            <div class="screenshot-controls">
+                <button class="screenshot-btn active" data-screenshot="0"></button>
+                <button class="screenshot-btn" data-screenshot="1"></button>
+                <button class="screenshot-btn" data-screenshot="2"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2 class="section-title" data-key="download_now">Download Now</h2>
+                <p class="download-subtitle" data-key="download_subtitle">Start your healthy hydration journey today</p>
+                
+                <div class="download-options">
+                    <a href="#" class="download-btn app-store">
+                        <img src="assets/app-store-badge.svg" alt="Download on App Store">
+                    </a>
+                </div>
+                
+                <div class="qr-section">
+                    <div class="qr-code">
+                        <img src="assets/qr-code.svg" alt="QR Code">
+                    </div>
+                    <p data-key="scan_qr">Scan to download</p>
+                </div>
+                
+                <div class="app-info">
+                    <div class="info-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span data-key="ios_compatible">iOS 15.0+</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-download"></i>
+                        <span data-key="free_download">Free Download</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-star"></i>
+                        <span data-key="rating">4.9★ Rating</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-tint"></i>
+                    <span data-key="app_name">Healthy Water</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#privacy" data-key="privacy_policy">Privacy Policy</a>
+                    <a href="#terms" data-key="terms_of_service">Terms of Service</a>
+                    <a href="#contact" data-key="contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Healthy Water. <span data-key="all_rights_reserved">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
