@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://weiproduct.github.io/Healthywater/sitemap.xml

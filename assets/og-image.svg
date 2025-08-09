@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g transform="translate(80,80)">
+    <rect width="1040" height="470" rx="24" fill="#ffffff"/>
+    <g transform="translate(60,60)">
+      <circle cx="140" cy="150" r="120" fill="#dbeafe"/>
+      <path d="M140 40c40 50 60 80 60 110a60 60 0 1 1-120 0c0-30 20-60 60-110z" fill="#2563eb"/>
+    </g>
+    <g transform="translate(360,120)" fill="#0f172a">
+      <text x="0" y="0" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial" font-size="56" font-weight="700">Healthy Water</text>
+      <text x="0" y="64" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial" font-size="32" opacity="0.7">Smart Hydration Tracker</text>
+      <text x="0" y="128" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial" font-size="22" opacity="0.8">Track intake • AI insights • Smart reminders • EN/中文</text>
+      <a href="https://apps.apple.com/us/app/aidrinkwater/id6749274211" target="_blank">
+        <rect x="0" y="180" width="360" height="72" rx="12" fill="#2563eb"/>
+        <text x="30" y="228" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial" font-size="28" fill="#fff">Download on the App Store →</text>
+      </a>
+    </g>
+  </g>
+</svg>
